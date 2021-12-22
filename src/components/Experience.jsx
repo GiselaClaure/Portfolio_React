@@ -12,7 +12,6 @@ const Experience = ({ experience }) => {
                 <strong>{item.where}</strong>
               </p>
               <p class="text">{item.date}</p>
-              <p class="text">{item.description}</p>
             </Card>
           );
         })}

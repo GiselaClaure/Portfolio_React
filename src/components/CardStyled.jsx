@@ -72,10 +72,10 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 700px;
+  width: 600px;
   max-width: 80%;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
   text-align: center;
   border-radius: 25px;
   border: 2px solid #83c5be;
@@ -124,6 +124,8 @@ export const Projects = styled.div`
   border-radius: 15px;
   border: 2px solid #5c5b5beb;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  background-color: #f2e9e4;
+    padding:9px;
   img{
     border-radius: 10px;
     width:100%;
