@@ -1,8 +1,7 @@
 const projects = [
   {
     title: "Conoce Córdoba",
-    description:
-    "Final group project devloped for Upgrade Hub. Is is created for people who want to design an itinerary for their holidays in Córdoba. We used our own API Rest.",
+    description: "Final group project devloped for Upgrade Hub. Is is created for people who want to design an itinerary for their holidays in Córdoba. We used our own API Rest.",
     images: [
       "https://i.imgur.com/OpxxtS9.png",
       "https://i.imgur.com/xhJ53Ph.png",

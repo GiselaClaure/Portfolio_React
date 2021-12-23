@@ -17,7 +17,7 @@ const Portfolio = () => {
 
 
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="portfolio">
       <h1 className="project-title">MY PROJECTS:</h1>
       <div className="portfolio-container">
        {projects.map ((project) => {        
@@ -25,13 +25,7 @@ const Portfolio = () => {
           <Projects key={JSON.stringify(project)} onClick={() => expandModal(project)}>
             <img  src={project.images} alt={project.title} />
             <h3 title={project.title}>{project.title}</h3>
-            <div>
-              {project.technologies.map ((tech) =>{
-                return(
-                 <img className="project-tech" src={tech.class} alt="" />                
-                )               
-              })}
-            </div>
+            
 
           </Projects>
           
@@ -58,6 +52,14 @@ const Portfolio = () => {
                                 return (
                                     <div className="tech-contain">
                                     <p>{selectedProject.description}</p>
+                                    <div>
+              {selectedProject.technologies.map ((tech) =>{
+                return(
+                 <img className="project-tech"src={tech.class} alt="" />                
+                )               
+              })}
+            </div>
+
                                     </div>
                                 )
                             })}

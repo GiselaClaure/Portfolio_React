@@ -7,6 +7,7 @@ export const Tech = styled.div`
   flex-direction: column;
   justify-content: space-around;
   padding-inline: 200px;
+  padding-bottom:30px;
   @media (max-width: 576px) {
     padding-inline: 15px;
   }

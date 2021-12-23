@@ -2,9 +2,9 @@ import "./Contact.scss";
 
 const Contact = () => {
   return (
-    <section id="contact" className="section">
+    <section id="contact" className="contact">
       <div>
-        <h1 className="contact-title">CONTACT ME:</h1>
+        <h1 className="contact-title">YOU CAN CONTACT ME ON:</h1>
         <ul className="social-icons">
           <li className="icon icon--linkedin">
             <a href="https://www.linkedin.com/in/gisela-claure/">

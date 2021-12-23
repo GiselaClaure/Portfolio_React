@@ -36,8 +36,6 @@
       letter-spacing: 2px;
       color:white;
   }
-
-  
   .typing-hero{
     color:white;
     width: 27ch;
@@ -46,7 +44,7 @@
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 24px;
+    font-size: 22px;
   }
   
   @keyframes typing {
@@ -63,22 +61,44 @@
   .tech-container,
   .portfolio-container{
     margin-top: 90px;
+    padding-inline:105px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 100%;
+    
   }
-
+  
   .contact-title,
   .project-title{
+    padding-top:50px;
       font-size: 35px;
       color: #66c5bf;
+  }
+  .project-title{
+    color: #5c5b5beb;
   }
 
 .section{
   padding:80px 0;
 }
-
-
-  
+.portfolio{
+  background-color: #95b8d162;
+  padding-inline:50px;
+}
+@media (max-width: 375px){
+  .portfolio-container{
+    padding-inline:6px;
+  }
+  .tech-container,
+  .portfolio{
+    padding-inline:0;
+  }
+  .contact-title{
+    font-size:25px;
+  }
+  .home-title{
+  margin-top:90px;
+}
+}

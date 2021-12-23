@@ -8,6 +8,7 @@ export const Hero = styled.div`
   flex-wrap: wrap;
   align-items: center;
   padding: 120px 0;
+
   div {
     width: 45%;
   }
@@ -26,7 +27,8 @@ export const Hero = styled.div`
     color: #5c5b5bd8;
   }
   @media (max-width: 375px) {
-    margin: 80px 0;
+    padding: 30px 0;
+    
     div {
       width: 100%;
     }
@@ -101,6 +103,7 @@ export const Card = styled.div`
     background-size: 200%;
     transition: 0.5s ease-out;
     border-color: #5c5b5bd8;
+    
     h3 {
       color: #5c5b5b;
     }
@@ -115,17 +118,16 @@ export const Projects = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content:space-between;
-  width: 500px;
+  width: 300px;
   max-width: 80%;
-  padding: 10px;
-  margin: 20px;
-  margin-bottom:50px;
+  margin: 0 50px 70px;
   text-align: center;
   border-radius: 15px;
   border: 2px solid #5c5b5beb;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
-  background-color: #f2e9e4;
-    padding:9px;
+  background-color: white;
+  padding:9px;
+  transition: 0.2s;
   img{
     border-radius: 10px;
     width:100%;
@@ -143,7 +145,7 @@ export const Projects = styled.div`
     padding: 0 20px;
   }
   @media (max-width: 375px) {
-    margin: 60px 20px;
+    margin: 30px 20px;
     p {
       padding: 0;
     }
@@ -162,5 +164,6 @@ export const Projects = styled.div`
       transition: 0.5s;
       transform: scale(103%);
       box-shadow: 0 10px 26px rgba(0, 0, 0, 0.479);
+      cursor:pointer;
     }
 `;

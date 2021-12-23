@@ -24,9 +24,9 @@ const Home = () => {
       <section id="About me" className="about">
         <Hero>
           <div>
-            <img src="https://i.imgur.com/pPuM7Sc.jpg" alt="" />
+            <img src="https://i.imgur.com/US7hc0O.jpg?1" alt="" />
           </div>
-          <div>
+          <div class="animate__animated animate__fadeInRight">
             <h1>ABOUT ME</h1>
             <p>
               My name is Gisela and I am a Junior Full Ftack Developer from
