@@ -26,7 +26,7 @@ export const Hero = styled.div`
     text-align: justify;
     color: #5c5b5bd8;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 576px) {
     padding: 30px 0;
     
     div {
@@ -50,7 +50,7 @@ export const ContainerR = styled.div`
   align-items: start;
   padding: 60px;
   margin-left: 50px;
-  @media (max-width: 375px) {
+  @media (max-width: 576px) {
     align-items: center;
     padding: 0;
     margin:5px;
@@ -64,7 +64,7 @@ export const ContainerL = styled.div`
   padding: 60px;
   margin-right: 50px;
 
-  @media (max-width: 375px) {
+  @media (max-width: 576px) {
     align-items: center;
     padding: 0;
     margin:5px;
@@ -92,7 +92,7 @@ export const Card = styled.div`
     font-size: 17px;
     padding: 0 20px;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 576px) {
     margin: 60px 20px;
     p {
       padding: 0;
@@ -144,7 +144,7 @@ export const Projects = styled.div`
     font-size: 20px;
     padding: 0 20px;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 576px) {
     margin: 30px 20px;
     p {
       padding: 0;
