@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Conoce Córdoba",
-    description: "Final group project devloped for Upgrade Hub. Is is created for people who want to design an itinerary for their holidays in Córdoba. We used our own API Rest.",
+    description: "Group project created for people who want to design an itinerary for their holidays in Córdoba.",
     images: [
       "https://i.imgur.com/OpxxtS9.png",
       "https://i.imgur.com/xhJ53Ph.png",
@@ -22,22 +22,23 @@ const projects = [
     ],
   },
   {
-    title: "Breaking Bad App",
+    title: "Watches app",
     description:
-      "This project shows all the Breaking Bad characters and their descriptions. I used the Breaking Bad public API and consumed the data with Angular",
+      "This project is a first contact with some React Hooks.",
     images: [
-      "https://i.imgur.com/dm5uI7d.png",
-      "https://i.imgur.com/wvImKNg.png",
-      "https://i.imgur.com/7Tu1wgK.png",
+      "https://i.imgur.com/ZdSLZ4V.png",
+      "https://i.imgur.com/QtN4itN.png",
     ],
-    url: "https://breaking-bad-api-mn8uhzwp6-giselaclaure.vercel.app/home",
+    url: "https://giselaclaure.github.io/React-clocks/",
     technologies: [
       {
-        class: "https://docs.angular.lat/assets/images/logos/angular/angular.png",
-        name: "Angular",
+        class: "https://cdn-icons-png.flaticon.com/512/1126/1126012.png",
+        name: "React",
       },
     ],
   },
+  
+  
   {
     title: "Pokédex",
     description:
@@ -51,6 +52,23 @@ const projects = [
       {
         class: "https://cdn-icons-png.flaticon.com/512/1126/1126012.png",
         name: "React",
+      },
+    ],
+  },
+  {
+    title: "Breaking Bad App",
+    description:
+      "This project shows all the Breaking Bad characters and their descriptions. I used the Breaking Bad public API and consumed the data with Angular",
+    images: [
+      "https://i.imgur.com/dm5uI7d.png",
+      "https://i.imgur.com/wvImKNg.png",
+      "https://i.imgur.com/7Tu1wgK.png",
+    ],
+    url: "https://breaking-bad-api-mn8uhzwp6-giselaclaure.vercel.app/home",
+    technologies: [
+      {
+        class: "https://docs.angular.lat/assets/images/logos/angular/angular.png",
+        name: "Angular",
       },
     ],
   },
@@ -73,23 +91,7 @@ const projects = [
     ],
   },
   {
-    title: "Watches app",
-    description:
-      "This project is a first contact with some React Hooks.",
-    images: [
-      "https://i.imgur.com/ZdSLZ4V.png",
-      "https://i.imgur.com/QtN4itN.png",
-    ],
-    url: "https://giselaclaure.github.io/React-clocks/",
-    technologies: [
-      {
-        class: "https://cdn-icons-png.flaticon.com/512/1126/1126012.png",
-        name: "React",
-      },
-    ],
-  },
-  {
-    title: "Watches app",
+    title: "Pokemon List",
     description:
       "One week after I started learning JS, I used the Pokemon API to print a list of the first 150 Pokémons. It is a very simple list, but this is one of my very first proyects!",
     images: [
