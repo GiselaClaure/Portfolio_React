@@ -45,23 +45,17 @@ const Portfolio = () => {
                             )
                         })}
                         </AwesomeSlider>
-                        
+                       
                             <div className="techs-contain">
-                            {selectedProject && selectedProject.technologies.map((tech) => {
-                                return (
                                     <div className="tech-contain">
-                                    <p>{selectedProject.description}</p>
-                                    <div>
-              {selectedProject.technologies.map ((tech) =>{
+                                    <p>{selectedProject && selectedProject.description}</p>
+                                    {selectedProject && selectedProject.technologies.map ((tech) =>{
                 return(
                  <img className="project-tech"src={tech.class} alt="" />                
                 )               
               })}
-            </div>
-
                                     </div>
                                 )
-                            })}
                             </div>
                             <a href={selectedProject && selectedProject.url}><img className="project-link" src="https://cdn-icons-png.flaticon.com/512/106/106900.png" alt="" /></a>
                         
