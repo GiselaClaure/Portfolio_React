@@ -25,6 +25,7 @@ const Portfolio = () => {
           <Projects key={JSON.stringify(project)} onClick={() => expandModal(project)}>
             <img  src={project.images} alt={project.title} />
             <h3 title={project.title}>{project.title}</h3>
+
           </Projects>
           
         );

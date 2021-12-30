@@ -1,7 +1,8 @@
 const projects = [
   {
     title: "Conoce Córdoba",
-    description: "Group project created for people who want to design an itinerary for their holidays in Córdoba.",
+    description:
+      "Group project created for people who want to design an itinerary for their holidays in Córdoba.",
     images: [
       "https://i.imgur.com/OpxxtS9.png",
       "https://i.imgur.com/xhJ53Ph.png",
